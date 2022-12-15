@@ -7,7 +7,7 @@ defineProps({
 
 <template>
   <div className="pokemon-card">
-    <section v-if="pokemon">
+    <section>
       <!-- Pokemon name with h3 tag -->
       <img loading="lazy" className="pokemon-sprite" />
       <article className="pokemon-data">
